@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
   /* font-family: "Alata", sans-serif; */
 }
 
@@ -230,6 +231,13 @@ footer .wrapped{
   font-family: "Alata", sans-serif;
 padding: 10px 40px;
 }
+.flex .btn:hover{
+background-color: black;
+color: white;
+cursor: pointer;
+transition-duration: 1s;
+}
+
   
 .creationSection2 .grid{
   display: grid;
